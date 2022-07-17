@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81b12951-a3a4-4e7b-abea-c0dd98b7b140" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../software/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\dev\software\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="26u6ZGDATd75KFr1UNUPVLZftlz" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604414436352" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../资料/dw-chart" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gmall.realtime.ads" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DataFrameLearn">
+    <configuration name="DataFrameLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wt.sqlpractice.DataFrameLearn" />
+      <module name="gmall0523-realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wt.sqlpractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DauApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.realtime.app.DauApp" />
+      <module name="gmall0523-realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.realtime.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDauApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.realtime.app.MyDauApp" />
+      <module name="gmall0523-realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.realtime.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderWideApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.realtime.dws.OrderWideApp" />
+      <module name="gmall0523-realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.realtime.dws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrademarkStatApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.realtime.ads.TrademarkStatApp" />
+      <module name="gmall0523-realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.realtime.ads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gmall0523LoggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall0523-logger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.logger.Gmall0523LoggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gmall0523PublisherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall0523-publisher" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.publisher.Gmall0523PublisherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DataFrameLearn" />
+        <item itemvalue="Application.DauApp" />
+        <item itemvalue="Application.MyDauApp" />
+        <item itemvalue="Application.TrademarkStatApp" />
+        <item itemvalue="Application.OrderWideApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81b12951-a3a4-4e7b-abea-c0dd98b7b140" name="Default Changelist" comment="" />
+      <created>1602918516739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602918516739</updated>
+      <workItem from="1602918520206" duration="6549000" />
+      <workItem from="1603067139545" duration="6750000" />
+      <workItem from="1603246013805" duration="6744000" />
+      <workItem from="1603260072099" duration="13336000" />
+      <workItem from="1603335766279" duration="217000" />
+      <workItem from="1603412961979" duration="16857000" />
+      <workItem from="1603501308839" duration="17423000" />
+      <workItem from="1603530749248" duration="895000" />
+      <workItem from="1603672152777" duration="9552000" />
+      <workItem from="1603760621566" duration="13992000" />
+      <workItem from="1603805609161" duration="147000" />
+      <workItem from="1603846908589" duration="16012000" />
+      <workItem from="1604017778315" duration="18844000" />
+      <workItem from="1604103994227" duration="5456000" />
+      <workItem from="1604276968407" duration="22233000" />
+      <workItem from="1604365181487" duration="7577000" />
+      <workItem from="1604379380821" duration="7629000" />
+      <workItem from="1604411206270" duration="1429000" />
+      <workItem from="1604412921385" duration="1602000" />
+      <workItem from="1604449837284" duration="2936000" />
+      <workItem from="1604839839138" duration="150000" />
+      <workItem from="1604847335469" duration="80000" />
+      <workItem from="1605520899045" duration="107000" />
+      <workItem from="1605609004887" duration="85000" />
+      <workItem from="1648261210566" duration="2926000" />
+      <workItem from="1648278588040" duration="28704000" />
+      <workItem from="1648383387343" duration="19000" />
+      <workItem from="1648436291902" duration="12234000" />
+      <workItem from="1648465355266" duration="42000" />
+      <workItem from="1648519057211" duration="278000" />
+      <workItem from="1649122880461" duration="11705000" />
+      <workItem from="1649161665513" duration="3000" />
+      <workItem from="1649162707378" duration="20000" />
+      <workItem from="1649213272365" duration="13460000" />
+      <workItem from="1649484339682" duration="2416000" />
+      <workItem from="1649555907495" duration="22746000" />
+      <workItem from="1649664302949" duration="84000" />
+      <workItem from="1649666725673" duration="22000" />
+      <workItem from="1649754700620" duration="269000" />
+      <workItem from="1650197520043" duration="3716000" />
+      <workItem from="1650244816979" duration="5238000" />
+      <workItem from="1650548228788" duration="344000" />
+      <workItem from="1650850290607" duration="681000" />
+      <workItem from="1651302783454" duration="1679000" />
+      <workItem from="1651320961428" duration="16000" />
+      <workItem from="1651321018456" duration="46000" />
+      <workItem from="1651322652956" duration="53000" />
+      <workItem from="1651452948088" duration="31000" />
+      <workItem from="1651453704500" duration="63000" />
+      <workItem from="1651456028382" duration="19000" />
+      <workItem from="1651457638788" duration="2423000" />
+      <workItem from="1651478410470" duration="47955000" />
+      <workItem from="1651541147709" duration="80000" />
+      <workItem from="1651546124866" duration="2652000" />
+      <workItem from="1651625492394" duration="225000" />
+      <workItem from="1651652732443" duration="82000" />
+      <workItem from="1651653677250" duration="521000" />
+      <workItem from="1651716300164" duration="593000" />
+      <workItem from="1651804404141" duration="3597000" />
+      <workItem from="1651998153826" duration="132000" />
+      <workItem from="1652062095454" duration="3300000" />
+      <workItem from="1652185305851" duration="317000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1067" y="275" width="1493" height="882" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1648383403353">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1067" y="275" width="1493" height="882" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1648383403353" />
+    <state x="728" y="629" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1648289176303">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="728" y="629" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1648289176303" />
+    <state x="1372" y="453" width="800" height="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1649123634479">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1372" y="453" width="800" height="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1649123634479" />
+    <state x="1550" y="290" key="FileChooserDialogImpl" timestamp="1648383235807">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1550" y="290" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1648383235807" />
+    <state width="1513" height="257" key="GridCell.Tab.0.bottom" timestamp="1652086109014">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1513" height="257" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1652086109014" />
+    <state width="1513" height="257" key="GridCell.Tab.0.center" timestamp="1652086109014">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1513" height="257" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1652086109014" />
+    <state width="1513" height="257" key="GridCell.Tab.0.left" timestamp="1652086109014">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1513" height="257" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1652086109014" />
+    <state width="1513" height="257" key="GridCell.Tab.0.right" timestamp="1652086109014">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1513" height="257" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1652086109014" />
+    <state width="1236" height="458" key="GridCell.Tab.1.bottom" timestamp="1649664073355">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="458" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1649664073355" />
+    <state width="1236" height="458" key="GridCell.Tab.1.center" timestamp="1649664073355">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="458" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1649664073355" />
+    <state width="1236" height="458" key="GridCell.Tab.1.left" timestamp="1649664073355">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="458" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1649664073355" />
+    <state width="1236" height="458" key="GridCell.Tab.1.right" timestamp="1649664073355">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="458" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1649664073355" />
+    <state x="1510" y="121" width="954" height="1116" key="dock-window-1" timestamp="1650247104270">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1510" y="121" width="954" height="1116" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1650247104270" />
+    <state x="1114" y="241" width="1276" height="988" key="find.popup" timestamp="1651457708561">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1114" y="241" width="1276" height="988" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1651457708561" />
+    <state x="365" y="201" key="new project wizard" timestamp="1649161513046">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="365" y="201" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1649161513046" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="reduceDStream.print(100)" language="Scala" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
