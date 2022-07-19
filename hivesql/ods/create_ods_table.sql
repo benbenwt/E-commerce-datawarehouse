@@ -45,7 +45,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_base_category1/';
-4.2.4 二级品类表
+
 DROP TABLE IF EXISTS ods_base_category2;
 CREATE EXTERNAL TABLE ods_base_category2(
     `id` STRING COMMENT ' id',
@@ -58,7 +58,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_base_category2/';
-4.2.5 三级品类表
+
 DROP TABLE IF EXISTS ods_base_category3;
 CREATE EXTERNAL TABLE ods_base_category3(
     `id` STRING COMMENT ' id',
@@ -71,7 +71,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_base_category3/';
-4.2.6 编码字典表
+
 DROP TABLE IF EXISTS ods_base_dic;
 CREATE EXTERNAL TABLE ods_base_dic(
     `dic_code` STRING COMMENT '编号',
@@ -86,7 +86,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_base_dic/';
-4.2.7 省份表
+
 DROP TABLE IF EXISTS ods_base_province;
 CREATE EXTERNAL TABLE ods_base_province (
     `id` STRING COMMENT '编号',
@@ -101,7 +101,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_base_province/';
-4.2.8 地区表
+
 DROP TABLE IF EXISTS ods_base_region;
 CREATE EXTERNAL TABLE ods_base_region (
     `id` STRING COMMENT '编号',
@@ -112,7 +112,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_base_region/';
-4.2.9 品牌表
+
 DROP TABLE IF EXISTS ods_base_trademark;
 CREATE EXTERNAL TABLE ods_base_trademark (
     `id` STRING COMMENT '编号',
@@ -124,7 +124,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_base_trademark/';
-4.2.10 购物车表
+
 DROP TABLE IF EXISTS ods_cart_info;
 CREATE EXTERNAL TABLE ods_cart_info(
     `id` STRING COMMENT '编号',
@@ -146,7 +146,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_cart_info/';
-4.2.11 评论表
+
 DROP TABLE IF EXISTS ods_comment_info;
 CREATE EXTERNAL TABLE ods_comment_info(
     `id` STRING COMMENT '编号',
@@ -163,7 +163,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_comment_info/';
-4.2.12 优惠券信息表
+
 DROP TABLE IF EXISTS ods_coupon_info;
 CREATE EXTERNAL TABLE ods_coupon_info(
     `id` STRING COMMENT '购物券编号',
@@ -189,7 +189,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_coupon_info/';
-4.2.13 优惠券领用表
+
 DROP TABLE IF EXISTS ods_coupon_use;
 CREATE EXTERNAL TABLE ods_coupon_use(
     `id` STRING COMMENT '编号',
@@ -208,7 +208,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_coupon_use/';
-4.2.14 收藏表
+
 DROP TABLE IF EXISTS ods_favor_info;
 CREATE EXTERNAL TABLE ods_favor_info(
     `id` STRING COMMENT '编号',
@@ -225,7 +225,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_favor_info/';
-4.2.15 订单明细表
+
 DROP TABLE IF EXISTS ods_order_detail;
 CREATE EXTERNAL TABLE ods_order_detail(
     `id` STRING COMMENT '编号',
@@ -247,7 +247,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_order_detail/';
-4.2.16 订单明细活动关联表
+
 DROP TABLE IF EXISTS ods_order_detail_activity;
 CREATE EXTERNAL TABLE ods_order_detail_activity(
     `id` STRING COMMENT '编号',
@@ -264,7 +264,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_order_detail_activity/';
-4.2.17 订单明细优惠券关联表
+
 DROP TABLE IF EXISTS ods_order_detail_coupon;
 CREATE EXTERNAL TABLE ods_order_detail_coupon(
     `id` STRING COMMENT '编号',
@@ -281,7 +281,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_order_detail_coupon/';
-4.2.18 订单表
+
 DROP TABLE IF EXISTS ods_order_info;
 CREATE EXTERNAL TABLE ods_order_info (
     `id` STRING COMMENT '订单号',
@@ -308,7 +308,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_order_info/';
-4.2.19 退单表
+
 DROP TABLE IF EXISTS ods_order_refund_info;
 CREATE EXTERNAL TABLE ods_order_refund_info(
     `id` STRING COMMENT '编号',
@@ -328,7 +328,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_order_refund_info/';
-4.2.20 订单状态日志表
+
 DROP TABLE IF EXISTS ods_order_status_log;
 CREATE EXTERNAL TABLE ods_order_status_log (
     `id` STRING COMMENT '编号',
@@ -342,7 +342,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_order_status_log/';
-4.2.21 支付表
+
 DROP TABLE IF EXISTS ods_payment_info;
 CREATE EXTERNAL TABLE ods_payment_info(
     `id` STRING COMMENT '编号',
@@ -363,7 +363,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_payment_info/';
-4.2.22 退款表
+
 DROP TABLE IF EXISTS ods_refund_payment;
 CREATE EXTERNAL TABLE ods_refund_payment(
     `id` STRING COMMENT '编号',
@@ -384,7 +384,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_refund_payment/';
-4.2.23 商品平台属性表
+
 DROP TABLE IF EXISTS ods_sku_attr_value;
 CREATE EXTERNAL TABLE ods_sku_attr_value(
     `id` STRING COMMENT '编号',
@@ -400,7 +400,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_sku_attr_value/';
-4.2.24 商品（SKU）表
+
 DROP TABLE IF EXISTS ods_sku_info;
 CREATE EXTERNAL TABLE ods_sku_info(
     `id` STRING COMMENT 'skuId',
@@ -420,7 +420,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_sku_info/';
-4.2.25 商品销售属性表
+
 DROP TABLE IF EXISTS ods_sku_sale_attr_value;
 CREATE EXTERNAL TABLE ods_sku_sale_attr_value(
     `id` STRING COMMENT '编号',
@@ -437,7 +437,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_sku_sale_attr_value/';
-4.2.26 商品（SPU）表
+
 DROP TABLE IF EXISTS ods_spu_info;
 CREATE EXTERNAL TABLE ods_spu_info(
     `id` STRING COMMENT 'spuid',
@@ -451,7 +451,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_spu_info/';
-4.2.27 用户表
+
 DROP TABLE IF EXISTS ods_user_info;
 CREATE EXTERNAL TABLE ods_user_info(
     `id` STRING COMMENT '用户id',
