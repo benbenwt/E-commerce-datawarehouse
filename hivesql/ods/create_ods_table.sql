@@ -1,4 +1,5 @@
-4.2.1 活动信息表
+-- noinspection SqlNoDataSourceInspectionForFile
+-- noinspection SqlDialectInspectionForFile
 DROP TABLE IF EXISTS ods_activity_info;
 CREATE EXTERNAL TABLE ods_activity_info(
     `id` STRING COMMENT '编号',
@@ -14,7 +15,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_activity_info/';
-4.2.2 活动规则表
+
 DROP TABLE IF EXISTS ods_activity_rule;
 CREATE EXTERNAL TABLE ods_activity_rule(
     `id` STRING COMMENT '编号',
@@ -32,7 +33,7 @@ STORED AS
   INPUTFORMAT 'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
   OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION '/warehouse/gmall/ods/ods_activity_rule/';
-4.2.3 一级品类表
+
 DROP TABLE IF EXISTS ods_base_category1;
 CREATE EXTERNAL TABLE ods_base_category1(
     `id` STRING COMMENT 'id',
