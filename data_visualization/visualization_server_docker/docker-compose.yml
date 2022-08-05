@@ -1,0 +1,57 @@
+version: "2"
+services:
+  mysql:
+    image: vs-mysql
+    build:
+      context: ./docker/mysql
+      dockerfile: ./Dockerfile
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=vsserver
+      - MYSQL_PASSWORD=vsserver
+      - MYSQL_DATABASE=gmall_report
+    volumes:
+      - "./data/mysqldb:/var/lib/mysql"
+    ports:
+      - 3307:3306
+    networks:
+      vs_server_net:
+        ipv4_address: 172.42.1.10
+  superset:
+    image: vs-superset
+    build:
+      context: ./docker/superset
+      dockerfile: ./Dockerfile
+    ports:
+      - 8787:8787
+    networks:
+      vs_server_net:
+        ipv4_address: 172.42.1.11
+  elasticsearch:
+    image: vs-elasticsearch
+    build:
+      context: ./docker/elasticsearch
+      dockerfile: ./Dockerfile
+    deploy:
+      resources:
+        limits:
+          memory: 4096M
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - "./data/elasticsearch:/usr/share/elasticsearch/data"
+ #     - "./data/kibana:/usr/local/kibana-7.11.1-linux-x86_64/"
+    ports:
+      - 9201:9200
+      - 5602:5601
+    networks:
+      vs_server_net:
+        ipv4_address: 172.42.1.12
+networks:
+  vs_server_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.42.1.0/24
