@@ -57,8 +57,8 @@ def mail_alert(line):
 
     # smtp协议发送邮件的必要设置
     mail_host = "smtp.126.com"
-    mail_user = "wt18352516030@126.com"
-    mail_pass = "QRQXBTLOJFFDYPDJ"
+    mail_user = ""
+    mail_pass = ""
 
     # 告警内容
     message = ["".join(["表格", str(line["tbl"]), "数据异常."]),
